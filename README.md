@@ -31,6 +31,8 @@ This Repo contains the Arduino and the web interface code developed in the imple
 
 ### UI Mockup Screen shot
 
-<img src = "https://user-images.githubusercontent.com/42281654/160581586-a3495937-1f13-41ed-aeb7-721d5d67e8c8.jpg"  width="500" height="300"/>
+<img src = "https://user-images.githubusercontent.com/42281654/160581586-a3495937-1f13-41ed-aeb7-721d5d67e8c8.jpg"  width="500" height="auto"/>
 
+### Controller Circuit Screen shot
+<img src = "https://user-images.githubusercontent.com/42281654/160674299-b3f74391-26fd-46fd-bfe8-5217601f8c19.jpeg" width = "200" height = "auto">
 
