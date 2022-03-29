@@ -1,0 +1,32 @@
+{
+
+temperature:
+pressure:
+humidity:
+rain: 
+{
+
+dist 1 
+dist 2
+dist 3
+
+}
+
+{
+
+gas 1
+gas 2
+
+}
+
+{
+map on the gps
+}
+
+{
+car controller
+}
+
+{
+arm controller
+}

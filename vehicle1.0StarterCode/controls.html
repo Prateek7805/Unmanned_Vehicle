@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width initial-scale = 1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vehicle 1.0</title>
+  </head>
+  <body>
+
+    <div class="header">
+        <p>Vehicle 1.0</p>
+    </div>
+    <div class="content-lg content-sm">
+      <div class="col-lg col-sm">
+        <div class="tab bgColorGray">
+          <span class="tab-title">Temp:</span>
+          <span class="tab-title">pa:</span>
+          <span class="tab-title">humid:</span>
+          <span class="tab-title">rain:</span>
+        </div>
+      </div>
+      <div class="col-lg col-sm">
+        <div class="tab bgColorOlive">
+          <span class="tab-title">Obsticle</span>
+          <span class="tab-title">front:</span>
+          <span class="tab-title">left:</span>
+          <span class="tab-title">right:</span>
+        </div>
+      </div>
+      <div class="col-lg col-sm">
+        <div class="tab bgColorGray">
+          <span class="tab-title">Gas Sensors</span>
+          <span class="tab-title">CO2:</span>
+          <span class="tab-title">H2:</span>
+        </div>
+      </div>
+      <div class="col-lg col-sm">
+        <div class="tab bgColorOlive">
+          <span class="tab-title">GPS</span>
+          <span class="tab-title">lat:</span>
+          <span class="tab-title">long:</span>
+        </div>
+      </div>
+      <div class="col-lg-2 col-sm-2">
+        <div class="tab-2 controller-black">
+          <span class="tab-title">vehicle</span>
+          <div class="controller-row1">
+            <button id="forward" onclick="vehicle('f')">F</button>
+          </div>
+          <div class="controller-row2">
+            <span class="col-1"><button id="left" onclick="vehicle('l')">L</button></span>
+            <span class="col-2"><button id="stop" onclick="vehicle('s')">Stop</button></span>
+            <span class="col-3"><button id="right" onclick="vehicle('r')">R</button></span>
+          </div>
+          <div class="controller-row1">
+            <button id="backword" onclick="vehicle('b')">B</button>
+          </div>
+          <!-- change -->
+          <div class="speed-controller-row"><span class="regularWhite">S</span>
+            <input class="slider slider-orange2" type="range" min="0" max="90" value="0" onchange="arm('S', this.value)">
+          </div>
+          <!-- end of change -->
+        </div>
+      </div>
+      <div class="col-lg-2 col-sm-2">
+        <div class="tab-2 arm-controller-black">
+          <span class="tab-title">ARM</span>
+          <div class="arm-controller-row"><span class="regularWhite">P</span>
+            <input class="slider slider-green" type="range" min="80" max="500" value="80" onchange="arm('P', this.value)">
+          </div>
+          <div class="arm-controller-row"><span class="regularWhite">R</span>
+            <input class="slider slider-blue" type="range" min="80" max="500" value="80" onchange="arm('R', this.value)">
+          </div>
+          <div class="arm-controller-row"><span class="regularWhite">Y</span>
+            <input class="slider slider-orange" type="range" min="80" max="500" value="80" onchange="arm('Y', this.value)">
+          </div>
+          <div class="grab-button">
+            <button id="grab">grab</button>
+          </div>
+        </div>
+      </div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
